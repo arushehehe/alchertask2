@@ -1,0 +1,93 @@
+.info{
+  display:grid;
+  grid-template-columns:200px 1fr ;
+  gap:40px;
+}
+.profile{
+  height:140px;
+  width:140px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+.bgimg{
+  z-index:-1;
+  opacity:0.5;
+  position:absolute;
+  top:65px;
+  right:0;
+  height:50%;
+}
+.icon-imdb{
+  height:30px;
+}
+div{
+  white-space: nowrap;
+}
+.contain{
+  display:flex;
+  color:rgb(227, 227, 227);
+  gap:10px;
+  align-items: center;
+  font-size:12px
+}
+#age{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.498);
+  padding:2px 4px;
+  border-radius: 4px;
+}
+.rating{
+  align-items: center;
+  gap:3px;
+  display:flex;
+  color:white;
+  padding-bottom: 7px;
+}
+.icon-tomato{
+  height:20px;
+}
+.buttons{
+  display:flex;
+  margin-bottom: 10px;
+}
+.bttn{
+  height:30px;
+  padding:5px 5px;
+}
+.icons{
+  border-radius:10px;
+  border-style: none;
+  margin-right:8px;
+  font-size: 19px;
+  
+  display:flex;
+  align-items: center;
+}
+#overview{
+  font-size: 17px;
+  width:100vb;
+  white-space:initial;
+
+}
+#casts{
+  font-size:20px;
+}
+#all-cast{
+  display:flex;
+  flex-direction: row;
+  gap:12px;
+  overflow: scroll;
+
+}
+.cast{
+  font-size:16px;
+  text-align: center;
+}
+.cast:hover{
+  .profile{
+    border: 2px solid white;
+    transition: 0.1s;
+    height:136px;
+    width:136px;
+  }
+}
